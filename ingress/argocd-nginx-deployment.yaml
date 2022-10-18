@@ -18,7 +18,7 @@ spec:
       containers:
       - name: argocd-nginx
         image: nginx:1.23.1-alpine
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
           - containerPort: 80
             protocol: TCP
